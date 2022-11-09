@@ -7,3 +7,5 @@ class Cart(forms.Form):
 
 
 
+class Checkout(forms.Form):
+    Last_name = forms.CharField()
